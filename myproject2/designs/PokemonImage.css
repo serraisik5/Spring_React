@@ -1,0 +1,20 @@
+.pokemon-image-container {
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+    display: flex; /* Centering the image */
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .pokemon-image-container img {
+    margin-top: 60px;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s; /* Smooth transition */
+  }
+  
+  .pokemon-image-container:hover img {
+    transform: scale(1.6); /* Enlarges the image by 1.5 times on hover */
+  }
+  

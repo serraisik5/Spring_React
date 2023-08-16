@@ -1,0 +1,60 @@
+.pokemon-info {
+    background-color: hsl(200, 84%, 85%); /* Light blue pastel color */
+    padding: 20px;
+    color: #555; /* Soft grey color for text */
+    position: relative;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    border-radius: 15px; /* Rounded corners */
+    height: 300px;
+    width: 300px ;
+    overflow: auto;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    transition: all 0.3s ease; /* Smooth transition effect */
+  }
+  
+  .pokemon-image-info {
+    width: 100px;
+    float: left;
+    margin-right: 5px;
+    transition: transform 0.3s ease;
+  }
+  .pokemon-image-info:hover {
+    transform: scale(1.7); 
+  }
+  
+  .pokemon-details {
+    overflow: auto; 
+  }
+  
+  .pokemon-name {
+    margin-top: 40px;
+    font-size: 24px;
+    color: #333;
+    display: inline-block;
+  }
+  
+  .pokemon-attributes {
+    margin-top: 40px;
+   
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* Creates two columns */
+    gap: 10px; /* Adds space between the grid items */
+  }
+  
+  .pokemon-attributes > div {
+    /* Optional: Add styles for individual attribute containers here */
+  }
+  
+  strong {
+    font-size: 18px;
+    display: block; /* Makes the headers block-level elements */
+    color: #333; /* Darker grey color for headers */
+  }
+  
+  p {
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: #777; /* Lighter grey color for information */
+  }

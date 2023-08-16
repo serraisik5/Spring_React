@@ -1,0 +1,53 @@
+.user-profile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding-top: 15px;
+    max-width: 100%;
+  }
+  
+  .user-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 5px; 
+  }
+  
+  .user-info h2,
+  .user-info p {
+      
+    margin: 2px; 
+    padding: 0 10px; 
+    white-space: nowrap; 
+  }
+  
+  .lists-container {
+    width: 100%;
+    position: relative;
+    top: 70px;
+    left: 30px;
+    gap: 50px;
+    display: flex;
+    flex-grow: 1; 
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 40px;
+    
+  }
+  .pokeball-icon {
+    transition: transform 0.3s ease; 
+  }
+  
+  .pokeball-icon:hover {
+    transform: scale(1.9); 
+  }
+  
+  
+  .h2 {
+    font-size: 12px; 
+  }
+  .pokeball-icon {
+    width: 40px; 
+    height: 40px;
+  }
+  

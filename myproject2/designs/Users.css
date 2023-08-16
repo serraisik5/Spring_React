@@ -1,0 +1,107 @@
+.users-container {
+    background-color: rgba(230, 230, 230, 1); /* Pastel background */
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  .main-container {
+    display: flex;
+  }
+  
+  .search-container {
+    display: flex;
+    flex-direction: column; /* Vertical alignment */
+    justify-content: flex-start; /* Align to the top */
+  }
+  
+  .search-container input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px; /* Smooth design */
+    border: 1px solid #ccc;
+    background-color: #f0f0f0; /* Pastel color */
+  }
+  
+  .search-container button {
+    padding: 8px 12px;
+    margin-bottom: 10px; /* Vertical space between buttons */
+    border-radius: 5px; /* Smooth design */
+    background-color: #d0e9c6; /* Pastel color */
+    border: none;
+    cursor: pointer;
+  }  
+  
+  .table-container {
+    background-color: rgba(255, 255, 255, 0.97); 
+    padding: 20px;
+    border-radius: 5px; 
+   
+  }
+  
+  .add-user-container button {
+    background-color: #d0e9c6; /* Pastel color */
+    border-radius: 5px; /* Smooth design */
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .add-update-form {
+    background-color: hwb(197 55% 15%); /* Pastel color */
+    padding: 15px;
+    border-radius: 5px; /* Smooth design */
+  }
+  
+  .add-update-form label,
+  .add-update-form button {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .add-update-form input {
+    width: 80%;
+    padding: 10px;
+    border-radius: 5px; /* Smooth design */
+    border: 1px solid #ccc;
+  }
+
+  .table-with-forms-container {
+    display: flex; /* Horizontal layout */
+  }
+  
+  .add-update-form {
+    margin-right: 20px; /* Space between form and table */
+  }
+  .add-update-form button[type="submit"],
+.add-update-form button[type="button"] {
+  padding: 10px 20px;
+  border: none;
+  width: 80px; 
+  height: 30px; 
+  border-radius: 5px; /* Smooth design */
+  font-size: 12px;
+  cursor: pointer;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.add-update-form button[type="submit"] {
+  background-color: hsl(129, 42%, 66%); /* Pastel green */
+  color: white; /* White text */
+}
+
+.add-update-form button[type="button"] {
+  background-color: rgb(193, 160, 160); /* Pastel red */
+  color: white; /* White text */
+}
+
+/* Hover effects to make buttons more interactive */
+.add-update-form button[type="submit"]:hover,
+.add-update-form button[type="button"]:hover {
+  opacity: 0.8;
+}
+
+
+
+
+
+

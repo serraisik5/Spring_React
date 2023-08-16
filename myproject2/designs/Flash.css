@@ -1,0 +1,16 @@
+@keyframes flash {
+    0% {
+      color: #f2b14f; /* Initial color */
+    }
+    100% {
+      color: black; /* Final color */
+    }
+  }
+  
+  .pokemon-flash {
+    animation: flash 2.9s linear;
+  }
+  
+  .pokemon-flash:hover {
+    animation: flash 1.5s linear;
+  }
